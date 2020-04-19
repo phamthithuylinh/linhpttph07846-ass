@@ -1,0 +1,13 @@
+<form class="w-50 mx-auto mt-3">
+  <h1 align="center">Add Product</h1><br>
+  <div class="form-group">
+    <input type="text" name="name" class="form-control"placeholder="Product Name" [(ngModel)]="product.name"><br>
+    <input type="text" name="price" class="form-control"placeholder="Price" [(ngModel)]="product.price"><br>
+    <input type="text" name="desc" class="form-control"placeholder="Desc" [(ngModel)]="product.desc"><br>
+    <input type="text" name="img" class="form-control"placeholder="Img" [(ngModel)]="product.img"><br>
+   
+
+             
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="addProduct()">Add</button>
+</form>

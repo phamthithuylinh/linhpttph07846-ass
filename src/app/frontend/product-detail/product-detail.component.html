@@ -1,0 +1,57 @@
+<app-header></app-header>
+        <div class="single-product-area">
+        <div class="zigzag-bottom"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8" *ngIf="product">
+                    <div class="product-content-right">    
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="product-images">
+                                    <div class="product-main-img">
+                                        <img [src]="product.img" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <div class="product-inner">
+                                    <h2 class="product-name">{{product.name}}</h2>
+                                    <div class="product-inner-price">
+                                        <ins>${{product.price}}</ins>
+                                        <br>
+                                      
+                                    </div>  
+                                    <form action="" class="cart">
+                                        <div class="quantity">
+                                           Quantity: <input type="number" size="4" class="input-text qty text" title="Qty" value="{{product.desc}}" name="quantity" min="1" step="1">
+                                        </div>
+                                        
+                                    </form>  
+                                    <br><br>      <br> 
+                                    <p>{{product.status}}</p>
+                                     <button class="btn btn-warning"type="submit">Add to cart</button>
+                                     &nbsp;
+                                    <button class="btn btn-warning"type="submit">Buy now</button>              <br><br><br>
+                                    <div>
+                                      
+                                      
+                                    </div>
+                                    <br>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+<app-footer></app-footer>  
+  			
+      
+
+
+
+
+

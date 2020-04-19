@@ -1,0 +1,54 @@
+        <app-header></app-header>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-8 order-2 order-lg-1 produts-sidebar-filter">
+
+                    <div class="filter-widget">
+
+                    </div>
+
+                    
+                </div>
+                <div class="col-lg-9 order-1 order-lg-2">
+                    <div class="product-show-option">
+                        <div class="row">
+                            <div class="col-lg-7 col-md-7">
+                               
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="product-list">
+                      <h2 align="center">Prodcut List</h2>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-5" *ngFor="let product of products">
+                                <div class="product-item">
+                                    <div class="pi-pic">
+                                        <a href="#"><img class="card-img-top" [src]="product.img" alt=""></a>
+                                        
+                                    </div>
+                                    <div class="pi-text">
+                                        
+                                        <a href="#">
+                                          <p>  <b >{{product.name}}</b></p>
+                                        </a>
+                                        <div class="product-price">
+                                            ${{product.price}}
+                                         
+                                        </div>
+                                        <br>
+                                        <button style=" width:10s0px;"  type="button" class="btn btn-warning" >Buy now</button>&nbsp;&nbsp;
+                                        <button style="width:90px;"  type="button" routerLink="/product/{{product.id}}" class="btn btn-warning">Detail</button><br><br>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <app-footer></app-footer> 
+    

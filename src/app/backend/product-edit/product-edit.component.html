@@ -1,0 +1,16 @@
+<form class="w-50 mx-auto mt-3" *ngIf="product" >
+
+  <div class="form-group">
+    <h4>Sửa Sản Phẩm</h4>
+    <label for=""></label>
+    <input type="text" name="name" class="form-control"placeholder="Product Name" [(ngModel)]="product.name">
+    <input type="text" name="price" class="form-control"placeholder="Price" [(ngModel)]="product.price">
+    <input type="text" name="desc" class="form-control"placeholder="Desc" [(ngModel)]="product.desc">
+    <input type="text" name="status" class="form-control"placeholder="Status" [(ngModel)]="product.status">
+    <input type="text" name="img" class="form-control"placeholder="Img" [(ngModel)]="product.img">
+  </div>
+  <button type="submit" class="btn btn-outline-warning form-control" style="float:right" (click)="updateProduct()">Save</button>
+   <br><br><br>
+</form>
+
+
