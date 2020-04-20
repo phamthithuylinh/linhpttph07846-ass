@@ -9,6 +9,7 @@ import { DashboardComponent } from './backend/dashboard/dashboard.component';
 import { ProductManagerComponent } from './backend/product-manager/product-manager.component';
 import { ProductAddComponent } from './backend/product-add/product-add.component';
 import { AboutComponent } from './frontend/about/about.component';
+import { ContactComponent } from './frontend/contact/contact.component';
 
 
 const routes: Routes = [
@@ -28,7 +29,7 @@ const routes: Routes = [
   {path: 'product/:productID', component: ProductDetailComponent},
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
-
+  {path: 'contact', component: ContactComponent},
 ];
 
 @NgModule({
