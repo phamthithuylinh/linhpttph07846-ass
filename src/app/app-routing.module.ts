@@ -8,6 +8,7 @@ import { AdminComponent } from './backend/admin/admin.component';
 import { DashboardComponent } from './backend/dashboard/dashboard.component';
 import { ProductManagerComponent } from './backend/product-manager/product-manager.component';
 import { ProductAddComponent } from './backend/product-add/product-add.component';
+import { AboutComponent } from './frontend/about/about.component';
 
 
 const routes: Routes = [
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: 'product/edit/:productID', component: ProductEditComponent},
   {path: 'product/:productID', component: ProductDetailComponent},
   {path: 'home', component: HomeComponent},
+  {path: 'about', component: AboutComponent},
 
 ];
 

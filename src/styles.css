@@ -3101,6 +3101,335 @@ h4.text-w3pvt {
     padding: 0;
     margin: 0;
 }
-/* .thumb{
-  width: 700px;
-} */
+
+/* -----------------------about-------------------------- */
+
+/* ------------about-area--------- */
+.about_area {
+  padding-bottom: 210px;
+  padding-top: 150px;
+  background-image: url(../img/banner/burger_bg_1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+}
+
+/* line 21, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_area .about_info p {
+  font-size: 16px;
+  line-height: 28px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 0;
+  margin-bottom: 37px;
+}
+
+@media (max-width: 767px) {
+  /* line 29, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area .about_info a {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 35, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_area .about_thumb2 {
+  position: relative;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 35, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area .about_thumb2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 35, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area .about_thumb2 {
+    margin-bottom: 40px;
+  }
+}
+
+/* line 43, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_area .about_thumb2 img {
+  width: 100%;
+}
+
+/* line 47, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_area .about_thumb2 .img_1 img {
+  width: 100%;
+}
+
+/* line 51, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_area .about_thumb2 .img_2 {
+  margin-top: 0px;
+  margin-left: 0px;
+  position: absolute;
+  right: -30px;
+  bottom: -60px;
+}
+
+@media (max-width: 767px) {
+  /* line 51, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area .about_thumb2 .img_2 {
+    left: auto;
+    bottom: 0;
+    top: auto;
+    right: 0;
+    text-align: right;
+    bottom: -30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 51, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area .about_thumb2 .img_2 {
+    left: auto;
+    bottom: 0;
+    top: auto;
+    right: -10px;
+    text-align: right;
+    bottom: -30px;
+  }
+}
+
+/* line 74, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+.about_area .about_thumb2 .img_2 img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  /* line 74, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area .about_thumb2 .img_2 img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 74, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_about.scss */
+  .about_area .about_thumb2 .img_2 img {
+    width: 50%;
+  }
+}
+
+
+
+
+/* -------gallery-area---------------- */
+.gallery_area {
+  overflow: hidden;
+  /* padding-top: 140px; */
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area {
+    padding: 60px 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area {
+    padding-top: 60px;
+  }
+}
+
+/* line 11, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+.gallery_area .single_gallery {
+  position: relative;
+  height: 500px;
+  float: left;
+  overflow: hidden;
+  border-right: 8px solid #fff;
+  border-bottom: 8px solid #fff;
+}
+
+@media (max-width: 767px) {
+  /* line 11, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area .single_gallery {
+    height: auto;
+    border: none;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 11, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area .single_gallery {
+    height: 300px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 11, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area .single_gallery {
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 11, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area .single_gallery {
+    height: 300px;
+  }
+}
+
+/* line 33, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+.gallery_area .single_gallery a {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 60px;
+  color: #fff;
+  z-index: 13;
+  margin: auto;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  -webkit-transform: scale(4);
+  -moz-transform: scale(4);
+  -ms-transform: scale(4);
+  transform: scale(4);
+  line-height: 60px;
+  opacity: 0;
+}
+
+/* line 50, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+.gallery_area .single_gallery:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: '';
+  background: #F0542C;
+  opacity: 0;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  z-index: 8;
+}
+
+/* line 63, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+.gallery_area .single_gallery img {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 69, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+.gallery_area .single_gallery.small_img {
+  width: 30%;
+}
+
+@media (max-width: 767px) {
+  /* line 69, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area .single_gallery.small_img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 69, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area .single_gallery.small_img {
+    width: 50%;
+  }
+}
+
+/* line 78, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+.gallery_area .single_gallery.big_img {
+  width: 40%;
+}
+
+@media (max-width: 767px) {
+  /* line 78, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area .single_gallery.big_img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 78, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area .single_gallery.big_img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 78, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+  .gallery_area .single_gallery.big_img {
+    width: 100%;
+  }
+}
+
+/* line 97, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+.gallery_area .single_gallery:hover::before {
+  opacity: .3;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* line 101, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+.gallery_area .single_gallery:hover img {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+/* line 105, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_gallery.scss */
+.gallery_area .single_gallery:hover a {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+.ti-plus:before {
+    content: "\e61a";
+}
+::before {
+    box-sizing: border-box;
+}
